@@ -3,21 +3,17 @@ from __future__ import division
 """
 Conversion of the Brunel network implemented in nest-1.0.13/examples/brunel.sli
 to use PyNN.
-
 Brunel N (2000) Dynamics of sparsely connected networks of excitatory and inhibitory spiking neurons.
 J Comput Neurosci 8:183-208
-
 Andrew Davison, UNIC, CNRS
 May 2006
-
 $Id: brunel.py 705 2010-02-03 16:06:52Z apdavison $
-
 """
 
 from pyNN.utility import get_script_args, Timer
 import numpy as numpi
 import matplotlib.pyplot as plt
-from detect_oscillations import replay, ripple, gamma
+from detect_oscillations_gamma15_50 import replay, ripple, gamma
 
 
 simulator_name = "neuron"
@@ -440,7 +436,7 @@ for k in range (0, dataPoints):
 
 	# Pyr population
 
-	fig1 = plt.figure(figsize=(20, 8))
+	fig1 = plt.figure(figsize=(14, 20))
 
 	ax = fig1.add_subplot(4, 1, 1)
 	ax.plot(numpi.linspace(0, 1000, len(Pyr_avg_rate)), Pyr_avg_rate, 'b-')
