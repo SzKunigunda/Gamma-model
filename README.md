@@ -6,6 +6,6 @@ A CA3-as hippokampális régió gamma tartományú tevékenységére készült m
 Két esetet különbözetetek meg, a rekurrens kapcsolatokkal ellátott és a rekurrens kapcsolatok nélküli hálózatot. Az oszcilláció detektálása 15-50 Hz között történt. 
 
 
-- 3600 piramis sejt
+- 3600 piramis sejt (10 alpopulációra osztva)
 - 200 kosár sejt
 - 200 lassú inhibitoros sejt
