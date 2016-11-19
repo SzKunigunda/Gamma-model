@@ -8,4 +8,4 @@ Két esetet különbözetetek meg, a rekurrens kapcsolatokkal ellátott és a re
 
 - 3600 piramis sejt
 - 200 kosár sejt
-- 200 lassú inhibitoros 
+- 200 lassú inhibitoros sejt
