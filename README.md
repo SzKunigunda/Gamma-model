@@ -24,8 +24,15 @@ A valóságban piramis és a kosársejtek egyéb külső hajtóerőben is része
 
 
 
-#Események közötti időintervallumok (Interevent Interval)
+# Események közötti időintervallumok (Interevent Interval)
 
 Az Interevent Interval eloszlást a piramissejtek tüzelése alapján számítjuk ki. Egy interevent intervallum a két csúcs közötti eltelt időt ad meg, az előző és az aktuális csúcs közti időintervallumot. (plotiei.m fájlal lehet kirajzolni a Gulyás Attila által futtatott elemzéseket).
+
+# Eredmények
+
+A szimuláció során két különböző esetet hasonlítok össze: a piramissejtek közötti rekurrens kapcsolatok meglétével és annak hiányában végzek \textit{in silico} kísérleteket. A külső bemenetek tartománya a rekurrenssel ellátott esetben [5,100] Hz-es tartományban egyenletes eloszlással 20 adatpont felvételével volt adott, míg a rekurrens nélküli esetben ez a tartomány [10,100] Hz-re mozdult, mivel 10 Hz alatt ilyen feltételek mellett nem volt megfigyelhető jelentős gamma tevékenység. 
+Mindegyik MR serkentés értékhez külön hálózati szimuláció tartozik, mely alatt megfigyelésre került a piramis és kosársejtek átlagos tüzelési rátája, illetve az energiaspektrum, a gamma frekvenciás csúcsokra koncentrálva. (gammapower/gammapower_norec.png)
+
+
 
 
