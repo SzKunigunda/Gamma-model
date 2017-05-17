@@ -30,7 +30,7 @@ Az Interevent Interval eloszlást a piramissejtek tüzelése alapján számítju
 
 # Eredmények
 
-A szimuláció során két különböző esetet hasonlítok össze: a piramissejtek közötti rekurrens kapcsolatok meglétével és annak hiányában végzek \textit{in silico} kísérleteket. A külső bemenetek tartománya a rekurrenssel ellátott esetben [5,100] Hz-es tartományban egyenletes eloszlással 20 adatpont felvételével volt adott, míg a rekurrens nélküli esetben ez a tartomány [10,100] Hz-re mozdult, mivel 10 Hz alatt ilyen feltételek mellett nem volt megfigyelhető jelentős gamma tevékenység. 
+A szimuláció során két különböző esetet hasonlítok össze: a piramissejtek közötti rekurrens kapcsolatok meglétével és annak hiányában végzek in silico kísérleteket. A külső bemenetek tartománya a rekurrenssel ellátott esetben [5,100] Hz-es tartományban egyenletes eloszlással 20 adatpont felvételével volt adott, míg a rekurrens nélküli esetben ez a tartomány [10,100] Hz-re mozdult, mivel 10 Hz alatt ilyen feltételek mellett nem volt megfigyelhető jelentős gamma tevékenység. 
 Mindegyik MR serkentés értékhez külön hálózati szimuláció tartozik, mely alatt megfigyelésre került a piramis és kosársejtek átlagos tüzelési rátája, illetve az energiaspektrum, a gamma frekvenciás csúcsokra koncentrálva. (gammapower/gammapower_norec.png)
 
 
